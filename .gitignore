@@ -1,0 +1,12 @@
+# 编译产物（preview.png 是模板缩略图，需要保留，故不忽略 *.png）
+*.pdf
+
+# Typst 临时文件
+*.typ.tmp
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

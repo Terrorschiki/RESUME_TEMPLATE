@@ -1,0 +1,13 @@
+[package]
+name = "resume-template"
+version = "1.0.0"
+entrypoint = "template.typ"
+description = "中文单页简历模板（基于 resume-ng），内容与样式分离，字段全部为占位符。"
+license = "MIT"
+keywords = ["resume", "cv", "chinese"]
+categories = ["cv"]
+
+[template]
+path = "."
+entrypoint = "main.typ"
+thumbnail = "preview.png"

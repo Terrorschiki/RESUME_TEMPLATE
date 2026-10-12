@@ -168,6 +168,11 @@ RESUME_TEMPLATE/
 - 移除了全部个人信息（姓名、电话、邮箱、学校院系、实验室、项目名称、专利号、成绩与获奖名次等），一律改为占位符；
 - 修掉了原稿中几处影响观感的细节：`duty` 为空时标题后悬挂的 ` | `、以空格开头的列表项被合并进上一段、借用日期字段显示专利号、无日期条目仍渲染横线。
 
+## 鸣谢
+
+感谢 [**Lain-Ego**](https://github.com/Lain-Ego0)：这份简历的原始版式当初是由 Lain-Ego 帮忙修改完成的，
+本模板正是在那份简历的基础上整理而来。
+
 ## License
 
 [MIT](LICENSE)。模板基于 MIT 许可的 [`resume-ng`](https://github.com/fky2015/resume-ng-typst) 构建。
@@ -189,3 +194,6 @@ Search for `【` in `main.typ` to find every field to fill in. Requires Typst �
 (verified on 0.15.1) and the `@preview/resume-ng:1.0.0` package, which Typst downloads
 automatically on first compile. Default CJK font is `Noto Serif SC`, falling back to
 `Noto Serif CJK SC` / `SimSun`. Licensed under MIT.
+
+The original resume layout was reworked for the author by
+[**Lain-Ego**](https://github.com/Lain-Ego0) — many thanks.
